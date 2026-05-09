@@ -1,0 +1,12 @@
+:root { --blue: #1a2a3a; --gold: #c5a059; --light: #f4f4f4; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; line-height: 1.6; background: var(--light); color: #333; }
+nav { background: var(--blue); padding: 1rem; position: sticky; top: 0; z-index: 100; }
+.nav-container { max-width: 1000px; margin: auto; display: flex; justify-content: space-around; }
+nav a { color: white; text-decoration: none; font-weight: bold; transition: 0.3s; }
+nav a:hover { color: var(--gold); }
+header { background: white; text-align: center; padding: 3rem 1rem; border-bottom: 5px solid var(--gold); }
+.container { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
+.video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border: 3px solid var(--blue); }
+.video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+img { max-width: 100%; height: auto; border-radius: 5px; margin: 20px 0; border: 1px solid #ccc; }
+footer { text-align: center; padding: 2rem; background: var(--blue); color: white; margin-top: 3rem; }
